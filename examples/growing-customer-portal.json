@@ -1,0 +1,20 @@
+{
+  "name": "Customer portal with fast user growth (example inputs, replace with your own quotes)",
+  "currency": "USD",
+  "years": 6,
+  "discountRate": 0.1,
+  "users": { "start": 400, "growthPerYear": 0.4 },
+  "custom": {
+    "build": 180000,
+    "buildMonths": 5,
+    "hostingPerYear": 18000,
+    "supportRate": 0.18
+  },
+  "offTheShelf": {
+    "setup": 25000,
+    "pricePerUserPerMonth": 12,
+    "priceIncreasePerYear": 0.07,
+    "integrationBuild": 30000,
+    "integrationPerYear": 8000
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Small team, common process (example inputs, replace with your own quotes)",
+  "currency": "USD",
+  "years": 5,
+  "users": { "start": 8, "growthPerYear": 0.1 },
+  "custom": {
+    "build": 60000,
+    "buildMonths": 3,
+    "hostingPerYear": 2400,
+    "supportPerYear": 9000
+  },
+  "offTheShelf": {
+    "setup": 1000,
+    "pricePerUserPerMonth": 40,
+    "priceIncreasePerYear": 0.04
+  }
+}

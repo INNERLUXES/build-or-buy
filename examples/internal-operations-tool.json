@@ -1,0 +1,23 @@
+{
+  "name": "Internal operations tool (example inputs, replace with your own quotes)",
+  "currency": "USD",
+  "years": 5,
+  "discountRate": 0.08,
+  "users": { "start": 60, "growthPerYear": 0.15 },
+  "custom": {
+    "build": 120000,
+    "buildMonths": 4,
+    "hostingPerYear": 6000,
+    "supportRate": 0.15
+  },
+  "offTheShelf": {
+    "setup": 15000,
+    "pricePerUserPerMonth": 65,
+    "priceIncreasePerYear": 0.05,
+    "minimumSeats": 50,
+    "integrationBuild": 20000,
+    "integrationPerYear": 4000,
+    "workaroundHoursPerUserPerMonth": 1,
+    "hourlyCost": 35
+  }
+}
