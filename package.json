@@ -1,0 +1,49 @@
+{
+  "name": "build-or-buy",
+  "version": "1.0.0",
+  "description": "Compares the total cost of building custom software with renting an off-the-shelf product, year by year: break-even year, present value, the user count where custom wins, and which inputs move the answer.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "build-or-buy": "bin/build-or-buy.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "test:coverage": "node --test --experimental-test-coverage \"test/*.test.js\"",
+    "check": "node tools/check.mjs",
+    "example:operations": "node bin/build-or-buy.js examples/internal-operations-tool.json --sensitivity --break-even-users",
+    "example:small-team": "node bin/build-or-buy.js examples/small-team.json --break-even-users",
+    "example:portal": "node bin/build-or-buy.js examples/growing-customer-portal.json --format markdown"
+  },
+  "keywords": [
+    "build-vs-buy",
+    "custom-software",
+    "total-cost-of-ownership",
+    "tco",
+    "saas",
+    "cost-comparison",
+    "break-even",
+    "cli"
+  ],
+  "author": "INNERLUXES <info@innerluxes.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INNERLUXES/build-or-buy.git"
+  },
+  "homepage": "https://innerluxes.dev/software-development/custom"
+}
